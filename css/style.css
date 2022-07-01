@@ -1,21 +1,14 @@
-/* Reset geral */
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Global */
+@import "./global/global.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
+@import "./global/header.css";
 
-html {
-  font-size: 16px;
-}
+/* Utilidades */
+@import "./utilidades/componentes.css";
 
-body {
-  font-size: 1rem;
-}
+/* Home */
+@import "./home/introducao.css";
 
-img {
-  max-width: 100%;
-  display: block;
-}
+/* Bicicletas */
+@import "./bicicletas/bicicletas-listas.css";
