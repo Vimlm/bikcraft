@@ -6,10 +6,9 @@
 .seguros {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 60px 0;
+  padding: 60px 100px;
   gap: 40px;
   align-items: center;
-  margin: 0 20px;
 }
 
 .seguros h2 {
