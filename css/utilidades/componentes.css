@@ -16,6 +16,8 @@
   text-transform: uppercase;
   color: var(--cor-p6);
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao:hover {
