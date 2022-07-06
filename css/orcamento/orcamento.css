@@ -110,6 +110,19 @@
   background: var(--cor-00);
 }
 
+.orcamento-dados select {
+  margin-top: 28px;
+}
+
+.orcamento-dados-termos {
+  display: flex;
+}
+
+.orcamento-dados-termos input {
+  margin-right: 8px;
+  margin-top: 5px;
+}
+
 .orcamento-conteudo {
   display: none;
 }
